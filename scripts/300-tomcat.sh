@@ -10,6 +10,7 @@ mkdir backup/etc
 mkdir backup/etc/tomcat8
 mkdir backup/etc/default
 #backup default tomcat web.xml
+mkdir /etc/default/tomcat8
 cp /etc/tomcat8/web.xml backup/etc/tomcat8/web.xml-orig-backup
 #copy our web.xml to tomcat directory
 cp etc/tomcat8/web.xml /etc/tomcat8/
