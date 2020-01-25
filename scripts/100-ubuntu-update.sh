@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Updating Ubuntu Software"
-apt-get update
-apt-get upgrade
+echo "Updating Amazon AMI Software"
+yum update
+yum upgrade
 
-apt-get install unzip curl apt-transport-https gnupg
